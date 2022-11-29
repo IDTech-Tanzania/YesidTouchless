@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YesidTouchless_Example' do
+  pod 'YesidTouchless', :path => '../'
+
+  target 'YesidTouchless_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
