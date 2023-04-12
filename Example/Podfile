@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'YesidTouchless_Example' do
   pod 'YesidTouchless', :path => '../'
@@ -8,6 +8,5 @@ target 'YesidTouchless_Example' do
   target 'YesidTouchless_Tests' do
     inherit! :search_paths
 
-    
   end
 end

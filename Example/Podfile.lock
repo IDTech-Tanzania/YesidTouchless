@@ -1,0 +1,39 @@
+PODS:
+  - OnyxCamera (7.2.4):
+    - OpenCV (= 3.4.5)
+    - TensorFlowLiteObjC
+  - OpenCV (3.4.5)
+  - TensorFlowLiteC (2.10.0):
+    - TensorFlowLiteC/Core (= 2.10.0)
+  - TensorFlowLiteC/Core (2.10.0)
+  - TensorFlowLiteObjC (2.10.0):
+    - TensorFlowLiteObjC/Core (= 2.10.0)
+  - TensorFlowLiteObjC/Core (2.10.0):
+    - TensorFlowLiteC (= 2.10.0)
+  - YesidTouchless (0.1.0):
+    - OnyxCamera
+
+DEPENDENCIES:
+  - YesidTouchless (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - OnyxCamera
+    - OpenCV
+    - TensorFlowLiteC
+    - TensorFlowLiteObjC
+
+EXTERNAL SOURCES:
+  YesidTouchless:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OnyxCamera: 7c7d36e87c41570a55f1a1b759448b0510c4700b
+  OpenCV: 4171c39bdb17e65abda91fc8195d44cb347750f7
+  TensorFlowLiteC: edf19548f50a1552e43dbd6906f5618a478bd038
+  TensorFlowLiteObjC: 849af9ce3668b59b1f4a1902fad12a7ebf2cea70
+  YesidTouchless: 2a1d81c62e70fb0fa57175ff38f84ed025df79f5
+
+PODFILE CHECKSUM: 9ad0dc3c4c54913fd50803e826d814d8cadf7a98
+
+COCOAPODS: 1.11.3

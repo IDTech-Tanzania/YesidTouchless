@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393875CCE772D3E15890B625 /* libPods-YesidTouchless_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF1BBC337280D6BAC41E6E0 /* libPods-YesidTouchless_Tests.a */; };
+		4E6A27D7D93F584ADC66BE6E /* libPods-YesidTouchless_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5AD51E37D08E11F5F8C98 /* libPods-YesidTouchless_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6B5763A93C86CC407EC082F4 /* Pods_YesidTouchless_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A7334EFEB3A7C8A1EDCA14 /* Pods_YesidTouchless_Example.framework */; };
-		7D72BFBD30F290120B74CEDB /* Pods_YesidTouchless_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883846255C426E7D417EAFCB /* Pods_YesidTouchless_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0D9366C2AF6DBDC969B29C5D /* Pods-YesidTouchless_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesidTouchless_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YesidTouchless_Tests/Pods-YesidTouchless_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34A7334EFEB3A7C8A1EDCA14 /* Pods_YesidTouchless_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YesidTouchless_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5451742F61CD70A35885D20B /* Pods-YesidTouchless_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesidTouchless_Tests.release.xcconfig"; path = "Target Support Files/Pods-YesidTouchless_Tests/Pods-YesidTouchless_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		590F48A92935FB9400E1F006 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YesidTouchless_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesidTouchless_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,13 @@
 		607FACE51AFB9204008FA782 /* YesidTouchless_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YesidTouchless_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		883846255C426E7D417EAFCB /* Pods_YesidTouchless_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YesidTouchless_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFE349F9A3CD928594CA971 /* Pods-YesidTouchless_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesidTouchless_Example.debug.xcconfig"; path = "Target Support Files/Pods-YesidTouchless_Example/Pods-YesidTouchless_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		98E84EF68BCF28D5C85B54FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A5A97E5B2861EE2425BF2B11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CF3EF6C8296197CAB7F63138 /* YesidTouchless.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YesidTouchless.podspec; path = ../YesidTouchless.podspec; sourceTree = "<group>"; };
+		98E84EF68BCF28D5C85B54FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A5A97E5B2861EE2425BF2B11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2E5AD51E37D08E11F5F8C98 /* libPods-YesidTouchless_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YesidTouchless_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EF6C8296197CAB7F63138 /* YesidTouchless.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YesidTouchless.podspec; path = ../YesidTouchless.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E92025320AF2EC2B7D78CCC7 /* Pods-YesidTouchless_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesidTouchless_Example.release.xcconfig"; path = "Target Support Files/Pods-YesidTouchless_Example/Pods-YesidTouchless_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ECF1BBC337280D6BAC41E6E0 /* libPods-YesidTouchless_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YesidTouchless_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B5763A93C86CC407EC082F4 /* Pods_YesidTouchless_Example.framework in Frameworks */,
+				4E6A27D7D93F584ADC66BE6E /* libPods-YesidTouchless_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D72BFBD30F290120B74CEDB /* Pods_YesidTouchless_Tests.framework in Frameworks */,
+				393875CCE772D3E15890B625 /* libPods-YesidTouchless_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +78,6 @@
 				0D9366C2AF6DBDC969B29C5D /* Pods-YesidTouchless_Tests.debug.xcconfig */,
 				5451742F61CD70A35885D20B /* Pods-YesidTouchless_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,6 +111,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				590F48A92935FB9400E1F006 /* header.h */,
 			);
 			name = "Example for YesidTouchless";
 			path = YesidTouchless;
@@ -154,8 +155,8 @@
 		D8973BC058B3A9DD1FBF1C26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34A7334EFEB3A7C8A1EDCA14 /* Pods_YesidTouchless_Example.framework */,
-				883846255C426E7D417EAFCB /* Pods_YesidTouchless_Tests.framework */,
+				C2E5AD51E37D08E11F5F8C98 /* libPods-YesidTouchless_Example.a */,
+				ECF1BBC337280D6BAC41E6E0 /* libPods-YesidTouchless_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +172,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				0D3C49876C21A6F24B202523 /* [CP] Embed Pods Frameworks */,
+				9AA4DFCF5A5301EF55D401DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,10 +214,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4Z472Q5RVW;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4Z472Q5RVW;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,24 +266,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D3C49876C21A6F24B202523 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YesidTouchless_Example/Pods-YesidTouchless_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YesidTouchless/YesidTouchless.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YesidTouchless.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YesidTouchless_Example/Pods-YesidTouchless_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		18A9433DA4FAE8D738C5CCB2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +308,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA4DFCF5A5301EF55D401DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YesidTouchless_Example/Pods-YesidTouchless_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OnyxCamera/OnyxCamera.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OnyxCamera.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YesidTouchless_Example/Pods-YesidTouchless_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,11 +482,14 @@
 			baseConfigurationReference = 8EFE349F9A3CD928594CA971 /* Pods-YesidTouchless_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				INFOPLIST_FILE = YesidTouchless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = header.h;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +500,14 @@
 			baseConfigurationReference = E92025320AF2EC2B7D78CCC7 /* Pods-YesidTouchless_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				INFOPLIST_FILE = YesidTouchless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = header.h;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D9366C2AF6DBDC969B29C5D /* Pods-YesidTouchless_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5451742F61CD70A35885D20B /* Pods-YesidTouchless_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
